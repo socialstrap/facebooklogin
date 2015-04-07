@@ -1,6 +1,8 @@
 # facebooklogin
 SocialStrap - Facebook Login addon
 
+http://www.socialstrap.net
+
 Login and register new users with facebook authentication. You will need to set up a new Facebook application and configure SocialStrap to use it.
 
 
