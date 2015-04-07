@@ -1,0 +1,37 @@
+
+<h3><?php echo $this->translate('Register with facebook');?></h3>
+<hr/>
+
+<div style="margin:0 2% 0 2%">
+<div class="pull-left col-md-2">
+<div class="expand avatar large">
+<?php $session = new Zend_Session_Namespace('Default');?>
+ <img class="img-responsive" src="<?php echo $session->fb_avatar?>">
+</div>
+</div>
+
+<div class="pull-right col-md-10">
+<form action="<?php echo $this->escape($this->element->getAction()) ?>" method="<?php echo $this->escape($this->element->getMethod()) ?>" id="<?php echo $this->element->getId(); ?>" style="overflow:visible">
+
+<div class="form-group <?php echo $this->element->name->getId();?>">
+<label for="<?php echo $this->element->name->getId();?>"><?php echo $this->element->name->getLabel();?></label>
+<div class="input-field"><?php echo $this->element->name; ?></div>
+</div>
+
+<div class="embeded-text">
+<?php echo $this->render('terms.phtml')?>
+</div>
+
+<div class="form-group <?php echo $this->element->confirm->getId();?>">
+<?php echo $this->element->confirm;?> 
+<label for="<?php echo $this->element->confirm->getId();?>"><?php echo $this->element->confirm->getLabel(); ?></label>
+</div>
+
+<hr />
+
+<span class="pull-right"><?php echo $this->element->registerfbsubmit; ?></span>
+
+</form>
+</div>
+</div>
+
