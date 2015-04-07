@@ -1,5 +1,4 @@
-# facebooklogin
-SocialStrap - Facebook Login addon
+# SocialStrap - Facebook Login addon
 
 http://www.socialstrap.net
 
