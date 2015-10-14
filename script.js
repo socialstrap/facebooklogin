@@ -31,8 +31,7 @@ function fb_login(){
 
 		if (response.authResponse) {
 			
-			var reload_url = php_baseURL + '/addons/' + php_addonName + '/?fb-login';
-				window.location.replace(reload_url);
+				window.location.replace(php_fbloginurl);
 				return true;
 
 			} else {

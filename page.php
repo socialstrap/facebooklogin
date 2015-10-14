@@ -10,7 +10,6 @@
 
 $this->addScriptPath(realpath(dirname(__FILE__)));
 
-require_once 'inc/Facebook.php';
 require_once 'functions.php';
 
 if (isset($_GET['fb-login'])){

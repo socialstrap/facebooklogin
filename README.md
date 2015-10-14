@@ -1,8 +1,14 @@
+
 # SocialStrap - Facebook Login addon
 
 http://www.socialstrap.net
 
 Login and register new users with facebook authentication. You will need to set up a new Facebook application and configure SocialStrap to use it.
+
+
+=========================
+PHP 5.4+ is required
+=========================
 
 
 =================================
@@ -26,3 +32,4 @@ Steps on Facebook:
 - Now open "Status & Review" tab and switch ON the first option "Do you want to make this app and all its live features available to the general public?"
 
 Video screencast: https://www.youtube.com/watch?v=njyOViBcK-c
+
