@@ -11,7 +11,6 @@ PHP 5.4+ is required
 =========================
 
 
-=================================
 You need to set up a new Facebook application and configure SocialStrap to use this addon.
 
 Check for the latest info and documentation here:
